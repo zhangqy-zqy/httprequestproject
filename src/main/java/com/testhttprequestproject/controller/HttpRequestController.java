@@ -59,4 +59,9 @@ public class HttpRequestController {
         return "Hello World!";
 
     }
+    @RequestMapping(value = "/test", method = RequestMethod.GET)
+    public String testMethod() {
+        return "Hello World!";
+
+    }
 }
