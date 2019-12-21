@@ -9,7 +9,7 @@ import java.util.Random;
  * Base64加密测试类
  * @author zhangqianyu on 2019/12/19/019
  */
-public class TestUtil {
+public class EncryptionBase64Test {
 
     public static void main(String[] args) {
         String name="zhangqy";
