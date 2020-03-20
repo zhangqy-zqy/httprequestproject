@@ -1,6 +1,7 @@
 package com.testhttprequestproject.test;
 
 import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
+import com.alibaba.fastjson.JSONObject;
 import org.springframework.util.StringUtils;
 
 import java.util.Random;
@@ -12,12 +13,13 @@ import java.util.Random;
 public class EncryptionBase64Test {
 
     public static void main(String[] args) {
-        String name="zhangqy";
+        /*String name="zhangqy";
         String forword="123456";
         String string = base64Encode(name);
         System.out.println("密文为："+string);
         String resultData = base64Decode(string);
-        System.out.println("结果为："+resultData);
+        System.out.println("结果为："+resultData);*/
+
     }
 
 
@@ -83,4 +85,7 @@ public class EncryptionBase64Test {
         }
        return  sb.toString();
     }
+
+
+
 }
